@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar"
+
 const App = () => {
   return (
-    <div>
-      <h1 className='text-3xl bg-purple-600'>Home Page</h1>
-    </div>
+    <main className="overflow-x-hidden antialiased text-neutral-800">
+      <Navbar />
+    </main>
   )
 }
 
