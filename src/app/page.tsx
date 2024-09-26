@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button"
+import { ThemeSwitcher } from '@/components/app/ThemeSwitcher';
 
 export default function Home() {
   return (
     <div>
-      <Button>Home</Button>
+      <ThemeSwitcher />
     </div>
   )
 }
