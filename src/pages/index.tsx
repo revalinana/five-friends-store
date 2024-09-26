@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="flex justify-center mt-4">
+      <Button>Home</Button>
     </div>
   )
 }
