@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button"
+import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeSwitcher } from "@/components/theme-switcher";
 
 export default function Home() {
   return (
-    <div className="flex justify-center mt-4">
-      <Button>Home</Button>
-    </div>
+    <ThemeProvider attribute="class" disableTransitionOnChange>
+      <ThemeSwitcher />
+    </ThemeProvider>
   )
 }
