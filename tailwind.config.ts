@@ -26,7 +26,10 @@ const config: Config = {
 			secondaryBlack: '#1b1b1b', // opposite of plain white, not used pitch black because borders and box-shadows are that color 
 		  },
 		  borderRadius: {
-			base: '5px'
+			base: '5px',
+			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
 		  },
 		  boxShadow: {
 			light: '4px 4px 0px 0px #000',
@@ -42,11 +45,6 @@ const config: Config = {
 			base: '500',
 			heading: '700',
 		  },
-  		borderRadius: {
-  			lg: 'var(--radius)',
-  			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
-  		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
