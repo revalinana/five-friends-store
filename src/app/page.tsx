@@ -1,9 +1,9 @@
-import { ThemeSwitcher } from '@/components/app/ThemeSwitcher';
+import Navbar from '@/components/app/Navbar';
 
 export default function Home() {
   return (
     <div>
-      <ThemeSwitcher />
+      <Navbar />
     </div>
   )
 }
